@@ -53,7 +53,7 @@
         // Create iframe for YouTube embed (free, no API key needed)
         const iframe = document.createElement('iframe');
         iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=0&rel=0`;
-        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen';
         iframe.allowFullScreen = true;
         iframe.title = 'YouTube video player';
 
